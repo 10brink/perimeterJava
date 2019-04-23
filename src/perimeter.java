@@ -25,7 +25,7 @@ public class perimeter {
 			scnr.nextLine(); // garbage collection
 
 			System.out.println("do you want to calculate another room? (y/n)");
-			answer = scnr.nextLine();
+			answer = scnr.nextLine(); // change to char so it takes the first letter only
 			// scnr.nextLine();
 			// scnr.close();
 		} while (answer.equalsIgnoreCase("y"));
